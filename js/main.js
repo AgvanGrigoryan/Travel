@@ -15,7 +15,7 @@ $(document).ready(function(){
 		owl.trigger('prev.owl.carousel', [300]);
 	})
 
-	const logo = document.querySelector(".logo");
+	const logo = document.querySelector(".header__title");
 	logo.addEventListener('click', ()=>{
 		logo.classList.add('larg');
 	})
