@@ -121,10 +121,12 @@ body {
 .logo {
 	font-weight: 700;
 	font-size: 20px;
-	line-height: 30px;
 	color: #fff;
 }
-
+.logo.larg{
+	font-size: 25px;
+	color: #d34840;
+}
 .logo a {
 	color: #fff;
 }

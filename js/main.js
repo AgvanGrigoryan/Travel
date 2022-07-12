@@ -14,4 +14,9 @@ $(document).ready(function(){
 	$('.slider__btn--prev').click(function() {
 		owl.trigger('prev.owl.carousel', [300]);
 	})
+
+	const logo = document.querySelector(".logo");
+	logo.addEventListener('click', ()=>{
+		logo.classList.add('larg');
+	})
  });
