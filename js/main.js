@@ -15,8 +15,8 @@ $(document).ready(function(){
 		owl.trigger('prev.owl.carousel', [300]);
 	});
 
-	const header = document.querySelector(".header__title");
-	header.addEventListener('click', ()=>{
-		header.classList.add('larg');
+	const dest = document.querySelector(".destinations__title");
+	dest.addEventListener('click', ()=>{
+		dest.classList.toggle('larg');
 	});
  });
