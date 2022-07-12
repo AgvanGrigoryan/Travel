@@ -15,8 +15,8 @@ $(document).ready(function(){
 		owl.trigger('prev.owl.carousel', [300]);
 	})
 
-	const logo = document.querySelector(".header__title");
+	const header = document.querySelector(".header__title");
 	logo.addEventListener('click', ()=>{
-		logo.classList.toggle('larg');
-	})
+		logo.classList.add('larg');
+	});
  });
