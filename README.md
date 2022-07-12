@@ -1,6 +1,6 @@
 # Travel
 ## Barevner
 **Barev**
-- [x] this
+- [] this
 - [ ] or this
-- [ ] or `orange`
+- [ ] or `#FFA500`
