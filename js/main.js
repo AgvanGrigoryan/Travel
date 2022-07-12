@@ -14,9 +14,5 @@ $(document).ready(function(){
 	$('.slider__btn--prev').click(function() {
 		owl.trigger('prev.owl.carousel', [300]);
 	});
-
-	const dest = document.querySelector(".destinations__title");
-	dest.addEventListener('click', ()=>{
-		dest.classList.toggle('larg');
-	});
+	
  });
