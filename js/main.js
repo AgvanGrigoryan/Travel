@@ -13,7 +13,7 @@ $(document).ready(function(){
 	})
 	$('.slider__btn--prev').click(function() {
 		owl.trigger('prev.owl.carousel', [300]);
-	})
+	});
 
 	const header = document.querySelector(".header__title");
 	logo.addEventListener('click', ()=>{
