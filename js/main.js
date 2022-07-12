@@ -16,7 +16,7 @@ $(document).ready(function(){
 	});
 
 	const header = document.querySelector(".header__title");
-	logo.addEventListener('click', ()=>{
-		logo.classList.add('larg');
+	header.addEventListener('click', ()=>{
+		header.classList.add('larg');
 	});
  });
